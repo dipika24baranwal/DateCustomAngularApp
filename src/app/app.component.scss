@@ -1,0 +1,20 @@
+.form-row {
+  padding: 10px 0;
+  background-color: lightblue;
+
+}
+.form-row label {
+  // padding-right: 10px;
+  flex:1;
+  text-align: center;
+  //margin: auto;
+}
+.form-row input {
+  flex:1;
+}
+@media(min-width: 960px) {
+  .form-row {
+    display:flex;
+    background-color: lightblue;
+  }
+}
